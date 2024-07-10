@@ -7,8 +7,12 @@ import { defineConfig } from 'vite'
 export default defineConfig({
 	plugins: [react()],
 	resolve: {
-		alias: {
-			'@': path.resolve(__dirname, './src'),
-		},
+		alias: [
+			{ find: '~', replacement: path.resolve('src') },
+			{
+				find: '@ui',
+				replacement: path.resolve('src', 'shared', 'ui'),
+			},
+		],
 	},
 })
