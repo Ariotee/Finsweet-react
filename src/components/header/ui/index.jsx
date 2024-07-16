@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Logotype } from '../../../shared/icons'
 import { Container } from '../../../shared/shells'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -9,32 +10,34 @@ const Header = () => {
       <Container>
         <div className='flex-sb'>
           <div className='flex-c'>
-            <Logotype />
+            <Link to={'/'}>
+              <Logotype />
+            </Link>
           </div>
 
           <div className='flex-c'>
             <nav className='mr-8'>
               <ul className='gap-6 flex-c'>
-                <a href='#' className='text-white'>
+                <Link to={'/'} className='text-white'>
                   <li className='leading-7 font-normal text-base font-inter'>
                     Home
                   </li>
-                </a>
-                <a href='#' className='text-white'>
+                </Link>
+                <Link to={'blog'} className='text-white'>
                   <li className='leading-7 font-normal text-base font-inter'>
                     Blog
                   </li>
-                </a>
-                <a href='#' className='text-white'>
+                </Link>
+                <Link to={'aboutus'} className='text-white'>
                   <li className='leading-7 font-normal text-base font-inter'>
                     About Us
                   </li>
-                </a>
-                <a href='#' className='text-white'>
+                </Link>
+                <Link to={'contactus'} className='text-white'>
                   <li className='leading-7 font-normal text-base font-inter'>
                     Contact us
                   </li>
-                </a>
+                </Link>
               </ul>
             </nav>
 
