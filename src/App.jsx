@@ -1,9 +1,9 @@
 import React from 'react'
 
-import './scss/all.scss'
+import Header from './components/header/ui'
 
 const App = () => {
-	return <div>App</div>
+  return <Header />
 }
 
 export default App
