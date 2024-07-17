@@ -9,6 +9,11 @@ export default {
     extend: {
       colors: {
         black: '#232536',
+        accent: '#ffd050',
+        'accent-dark': '#cda73f',
+      },
+      backgroundImage: {
+        'intro-bg': 'url(../../src/assets/img/intro-bg.png)',
       },
     },
     fontFamily: {
