@@ -5,3 +5,7 @@
 .flex-sb {
   @apply flex items-center justify-between;
 }
+
+.flex-start {
+  @apply flex flex-col items-start justify-center;
+}
