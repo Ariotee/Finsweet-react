@@ -1,12 +1,9 @@
 import React from 'react'
-import { Container } from '../../shared/shells'
+
+import Introduction from '~/components/sections/introduction'
 
 const HomePage = () => {
-  return (
-    <div className=''>
-      <Container>Home</Container>
-    </div>
-  )
+  return <Introduction />
 }
 
 export default HomePage
