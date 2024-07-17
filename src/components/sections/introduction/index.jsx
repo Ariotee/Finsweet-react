@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Container } from '../../../shared/shells'
+import { ButtonMore } from '../../../shared/buttons'
 
 const Introduction = () => {
   return (
@@ -32,9 +33,7 @@ const Introduction = () => {
           </p>
 
           <div className='flex-c'>
-            <button className='py-4 px-10 bg-black font-bold font-sen text-[18px] leading-[133%] text-white transition ease-in-out duration-300 hover:bg-accent-dark'>
-              Read More {'>'}
-            </button>
+            <ButtonMore>Read More {'>'}</ButtonMore>
           </div>
         </div>
       </Container>
