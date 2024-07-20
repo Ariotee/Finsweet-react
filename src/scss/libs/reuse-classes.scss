@@ -9,3 +9,7 @@
 .flex-start {
   @apply flex flex-col items-start justify-center;
 }
+
+.flex-sb-nc {
+  @apply flex justify-between;
+}
