@@ -10,7 +10,7 @@ import { MainBlock } from './ui/Blocks'
 
 const AboutUs = () => {
   return (
-    <div className='relative mt-20 py-24 bg-[#f4f0f8] before:absolute before:right-0 before:top-[-23px] before:content-[url(../../src/assets/svg/pattern.svg)]'>
+    <section className='relative mt-20 py-24 bg-[#f4f0f8] before:absolute before:right-0 before:top-[-23px] before:content-[url(../../src/assets/svg/pattern.svg)]'>
       <Container>
         <div className='flex-sb-nc'>
           <MainBlock>
@@ -44,7 +44,7 @@ const AboutUs = () => {
           </MainBlock>
         </div>
       </Container>
-    </div>
+    </section>
   )
 }
 
