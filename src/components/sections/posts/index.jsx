@@ -8,7 +8,7 @@ import PostImg from '~/assets/img/post-img.png'
 
 const Posts = () => {
   return (
-    <div className='py-8 mt-14'>
+    <section className='py-8 mt-14'>
       <Container>
         <div className='flex-sb'>
           <h2 className='font-sen font-bold text-[36px] leading-[133%] tracking-[-0.06em] text-black'>
@@ -71,7 +71,7 @@ const Posts = () => {
           </div>
         </div>
       </Container>
-    </div>
+    </section>
   )
 }
 
