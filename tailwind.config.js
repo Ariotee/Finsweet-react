@@ -20,6 +20,7 @@ export default {
       },
       backgroundImage: {
         'intro-bg': 'url(../../src/assets/img/intro-bg.png)',
+        'story-bg': 'url(../../src/assets/img/ourStory-ill.png)',
       },
       spacing: {
         pcard: '25px 116px 25px 32px',
