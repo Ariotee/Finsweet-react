@@ -7,6 +7,7 @@ import Categories from '~/components/sections/categories'
 import OurStory from '~/components/sections/our-story'
 import Authors from '~/components/sections/authors'
 import Partners from '~/components/sections/partners'
+import Reviews from '~/components/sections/reviews'
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
       <OurStory />
       <Authors />
       <Partners />
+      <Reviews />
     </>
   )
 }
