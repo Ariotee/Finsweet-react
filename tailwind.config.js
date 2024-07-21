@@ -14,6 +14,7 @@ export default {
         'accent-dark': '#cda73f',
         'border-dark': 'rgba(109, 110, 118, 0.1)',
         'light-dark': '#4c4c4c',
+        'light-yellow': '#fbf6ea',
         gray: '#6d6e76',
         purple: '#592ea9',
         'border-dark': 'rgba(109, 110, 118, 0.3)',
