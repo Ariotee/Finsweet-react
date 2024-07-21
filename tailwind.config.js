@@ -16,12 +16,16 @@ export default {
         'light-dark': '#4c4c4c',
         gray: '#6d6e76',
         purple: '#592ea9',
+        'border-dark': 'rgba(109, 110, 118, 0.3)',
       },
       backgroundImage: {
         'intro-bg': 'url(../../src/assets/img/intro-bg.png)',
       },
       spacing: {
         pcard: '25px 116px 25px 32px',
+      },
+      gridTemplateColumns: {
+        category: 'repeat(4, minmax(0, 1fr))',
       },
     },
     fontFamily: {
