@@ -27,6 +27,7 @@ export default {
       },
       gridTemplateColumns: {
         category: 'repeat(4, minmax(0, 1fr))',
+        authors: 'repeat(4, minmax(0, 1fr))',
       },
     },
     fontFamily: {
