@@ -8,6 +8,7 @@ import OurStory from '~/components/sections/our-story'
 import Authors from '~/components/sections/authors'
 import Partners from '~/components/sections/partners'
 import Reviews from '~/components/sections/reviews'
+import JoinTeam from '~/components/sections/join-our-team'
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
       <Authors />
       <Partners />
       <Reviews />
+      <JoinTeam />
     </>
   )
 }

@@ -18,9 +18,11 @@ export const TextFieldTitle = ({ children, text_center = '' }) => {
   )
 }
 
-export const TextFieldInfo = ({ children }) => {
+export const TextFieldInfo = ({ children, text_center = '' }) => {
   return (
-    <p className='font-inter font-normal text-base leading-[175%] text-gray'>
+    <p
+      className={`${text_center} font-inter font-normal text-base leading-[175%] text-gray`}
+    >
       {children}
     </p>
   )
