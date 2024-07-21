@@ -8,9 +8,11 @@ export const TextFieldSubTitle = ({ children }) => {
   )
 }
 
-export const TextFieldTitle = ({ children }) => {
+export const TextFieldTitle = ({ children, text_center = '' }) => {
   return (
-    <h2 className='font-sen mt-6 mb-4 font-bold text-4xl leading-[133%] tracking-[-0.06em] text-black'>
+    <h2
+      className={`${text_center} font-sen mt-6 mb-4 font-bold text-4xl leading-[133%] tracking-[-0.06em] text-black`}
+    >
       {children}
     </h2>
   )
