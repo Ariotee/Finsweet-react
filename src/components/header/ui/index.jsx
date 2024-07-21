@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Logotype } from '../../../shared/icons'
-import { Container } from '../../../shared/shells'
+import { Logotype } from '~/shared/icons'
+import { Container } from '~/shared/shells'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
