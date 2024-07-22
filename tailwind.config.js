@@ -30,10 +30,16 @@ export default {
         category: 'repeat(4, minmax(0, 1fr))',
         authors: 'repeat(4, minmax(0, 1fr))',
       },
-    },
-    fontFamily: {
-      sen: ['Sen', 'sans-serif'],
-      inter: ['Inter', 'sans-serif'],
+      fontFamily: {
+        sen: ['Sen', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+      },
+      lineHeight: {
+        125: '125%',
+        133: '133%',
+        143: '143%',
+        175: '175%',
+      },
     },
   },
   plugins: [],
