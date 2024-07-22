@@ -1,7 +1,7 @@
-import React from 'react'
-
 import { Container } from '~/shared/shells'
 import { ButtonMore } from '~/shared/buttons'
+import { TextFieldInfo, TextFieldTitle } from '~/shared/fields/TextFields'
+
 import { CardPost } from './card/CardPost'
 
 import PostImg from '~/assets/img/post-img.png'
@@ -11,17 +11,13 @@ const Posts = () => {
     <section className='py-8 mt-14'>
       <Container>
         <div className='flex-sb'>
-          <h2 className='font-sen font-bold text-[36px] leading-[133%] tracking-[-0.06em] text-black'>
-            Featured Post
-          </h2>
+          <TextFieldTitle text_size='text-4xl'>Featured Post</TextFieldTitle>
 
-          <div className='flex-sb min-w-[500px] text-center'>
-            <h2 className='font-bold text-[36px] leading-[133%] tracking-[-0.06em] font-sen text-black'>
-              All Posts
-            </h2>
+          <div className='flex-sb min-w-[500px]'>
+            <TextFieldTitle text_size='text-4xl'>All Posts</TextFieldTitle>
             <a
               href='#'
-              className='font-normal text-[16px] leading-[175%] text-purple '
+              className='font-normal text-[16px] leading-175 text-purple '
             >
               View All
             </a>
@@ -35,7 +31,7 @@ const Posts = () => {
                 <img src={PostImg} alt='Post image' />
               </div>
 
-              <div className='flex mt-[32px] font-inter font-medium text-[14px] leading-[143%] text-light-dark'>
+              <div className='flex mt-[32px] font-inter font-medium text-[14px] leading-142 text-light-dark'>
                 <p className='creator_name'>
                   By
                   <span className='text-accent-second ml-2'>John Doe</span>
@@ -45,15 +41,20 @@ const Posts = () => {
                 </p>
               </div>
 
-              <h3 className='my-4 font-sen font-bold text-[28px] leading-[143%] tracking-[-0.04em]'>
+              <TextFieldTitle
+                text_size='text-[28px]'
+                margin_bottom='mb-4'
+                margin_top='mt-3'
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
-              </h3>
-              <p className='font-inter font-normal text-[16px] leading-[175%] text-gray'>
+              </TextFieldTitle>
+
+              <TextFieldInfo text_color='text-gray'>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat non proident.
-              </p>
+              </TextFieldInfo>
 
               <div className='mt-8'>
                 <ButtonMore>Read More {'>'}</ButtonMore>

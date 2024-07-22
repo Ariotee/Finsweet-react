@@ -5,10 +5,10 @@ export const AuthorCard = ({ obj }) => {
         <img src={obj.avatarUrl} />
       </div>
 
-      <h3 className='mt-5 font-sen font-bold text-[28px] leading-[143%] tracking-[-0.04em] text-black'>
+      <h3 className='mt-5 font-sen font-bold text-[28px] leading-142 tracking-[-0.04em] text-black'>
         {obj.name}
       </h3>
-      <p className='font-inter font-normal text-sm leading-[143%] text-center text-gray'>
+      <p className='font-inter font-normal text-sm leading-142 text-center text-gray'>
         Content Writer @{obj.companyName}
       </p>
       <ul className='flex items-center justify-center mt-5 gap-4'>

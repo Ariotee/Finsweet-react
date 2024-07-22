@@ -1,16 +1,20 @@
-import React from 'react'
-
-import { AuthorsContent } from './data/authors.data'
-
 import { Container } from '~/shared/shells'
-import { TextFieldTitle } from '../about-us/ui/TextFields'
+import { TextFieldTitle } from '~/shared/fields/TextFields'
+
+import { AuthorsContent } from '~/data/authors.data'
+
 import { AuthorCard } from './ui/Card'
 
 const Authors = () => {
   return (
-    <div className='pt-32 pb-24'>
+    <section className='pt-32 pb-24'>
       <Container>
-        <TextFieldTitle text_center={'text-center'}>
+        <TextFieldTitle
+          text_center='text-center'
+          text_color='text-black'
+          text_size='text-4xl'
+          margin_bottom='mb-12'
+        >
           List of Authors
         </TextFieldTitle>
 
@@ -20,7 +24,7 @@ const Authors = () => {
           ))}
         </ul>
       </Container>
-    </div>
+    </section>
   )
 }
 

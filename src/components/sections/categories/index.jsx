@@ -1,17 +1,22 @@
-import React from 'react'
-
 import { Container } from '~/shared/shells'
+import { TextFieldTitle } from '~/shared/fields/TextFields'
+
 import { Category } from './ui/Card'
 
-import { ContentCateg } from './data/Categories'
+import { ContentCateg } from '~/data/categories.data'
 
 const Categories = () => {
   return (
     <section className='py-32'>
       <Container>
-        <h2 className='text-center mb-12 font-sen text-black font-bold text-4xl leading-[133%] tracking-[-0.06em]'>
+        <TextFieldTitle
+          text_color='text-black'
+          text_center='text-center'
+          text_size='text-4xl'
+          margin_bottom='mb-12'
+        >
           Choose A Category
-        </h2>
+        </TextFieldTitle>
 
         <ul className='grid grid-cols-category gap-8'>
           {ContentCateg.map(({ id, imageUrl, name, info }) => (

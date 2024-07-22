@@ -1,6 +1,4 @@
-import React from 'react'
-
-import { PartnersContent } from './data/partners.data'
+import { PartnersContent } from '~/data/partners.data'
 
 import { Container } from '~/shared/shells'
 import { PartnerItem } from './ui/PartnerItem'

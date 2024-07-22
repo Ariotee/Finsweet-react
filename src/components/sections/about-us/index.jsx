@@ -1,11 +1,9 @@
-import React from 'react'
-
 import { Container } from '~/shared/shells'
 import {
   TextFieldInfo,
   TextFieldSubTitle,
   TextFieldTitle,
-} from './ui/TextFields'
+} from '~/shared/fields/TextFields'
 import { MainBlock } from './ui/Blocks'
 
 const AboutUs = () => {
@@ -15,16 +13,21 @@ const AboutUs = () => {
         <div className='flex-sb-nc'>
           <MainBlock>
             <TextFieldSubTitle>About Us</TextFieldSubTitle>
-            <TextFieldTitle>
+            <TextFieldTitle
+              text_color='text-black'
+              margin_top='mt-6'
+              margin_bottom='mb-4'
+              text_size='text-4xl'
+            >
               We are a community of content writers who share their learnings
             </TextFieldTitle>
-            <TextFieldInfo>
+            <TextFieldInfo text_color='text-gray'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </TextFieldInfo>
             <a
               href='#'
-              className='block mt-4 font-sen font-bold text-[18px] leading-[178%] text-purple'
+              className='block mt-4 font-sen font-bold text-[18px] leading-175 text-purple'
             >
               Read More {'>'}
             </a>
@@ -32,10 +35,15 @@ const AboutUs = () => {
 
           <MainBlock>
             <TextFieldSubTitle>Our mision</TextFieldSubTitle>
-            <TextFieldTitle>
+            <TextFieldTitle
+              text_color='text-black'
+              text_size='text-[28px]'
+              margin_top='mt-6'
+              margin_bottom='mb-4'
+            >
               Creating valuable content for creatives all around the world
             </TextFieldTitle>
-            <TextFieldInfo>
+            <TextFieldInfo text_color='text-gray'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
