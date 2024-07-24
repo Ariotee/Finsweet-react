@@ -8,9 +8,9 @@ import { MainBlock } from './ui/Blocks'
 
 const AboutUs = () => {
   return (
-    <section className='relative mt-20 py-24 bg-[#f4f0f8] before:absolute before:right-0 before:top-[-23px] before:content-[url(../../src/assets/svg/pattern.svg)]'>
+    <section className='mt-20'>
       <Container>
-        <div className='flex-sb-nc'>
+        <div className='flex-sb-nc relative py-24 px-20 bg-[#f4f0f8] before:absolute before:right-0 before:top-[-23px] before:content-[url(../../src/assets/svg/pattern.svg)]'>
           <MainBlock>
             <TextFieldSubTitle>About Us</TextFieldSubTitle>
             <TextFieldTitle
