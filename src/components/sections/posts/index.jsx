@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import { Container } from '~/shared/shells'
 import { ButtonMore } from '~/shared/buttons'
 import { TextFieldInfo, TextFieldTitle } from '~/shared/fields/TextFields'
@@ -15,12 +17,12 @@ const Posts = () => {
 
           <div className='flex-sb min-w-[500px]'>
             <TextFieldTitle text_size='text-4xl'>All Posts</TextFieldTitle>
-            <a
-              href='#'
+            <Link
+              to={'posts'}
               className='font-normal text-[16px] leading-175 text-purple '
             >
               View All
-            </a>
+            </Link>
           </div>
         </div>
 
