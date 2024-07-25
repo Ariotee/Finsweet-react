@@ -1,8 +1,7 @@
-import React from 'react'
-
 import { Outlet } from 'react-router-dom'
 
-import Header from '../../components/header/ui'
+import Header from '~/components/header/'
+import Footer from '~/components/footer'
 
 const MainLayout = () => {
   return (
@@ -12,6 +11,8 @@ const MainLayout = () => {
       <main>
         <Outlet />
       </main>
+
+      <Footer />
     </>
   )
 }

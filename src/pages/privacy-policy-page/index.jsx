@@ -1,11 +1,11 @@
 import { Container } from '~/shared/shells'
 
-const AboutUsPage = () => {
+const PrivacyPolicy = () => {
   return (
     <div className=''>
-      <Container>About Us</Container>
+      <Container></Container>
     </div>
   )
 }
 
-export default AboutUsPage
+export default PrivacyPolicy

@@ -1,6 +1,4 @@
-import React from 'react'
-
-import { Container } from '../../shared/shells'
+import { Container } from '~/shared/shells'
 
 const ContactUsPage = () => {
   return (
