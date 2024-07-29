@@ -17,6 +17,7 @@ export default {
         'light-yellow': '#fbf6ea',
         gray: '#6d6e76',
         purple: '#592ea9',
+        lavander: '#f4f0f8',
         'border-dark': 'rgba(109, 110, 118, 0.3)',
       },
       backgroundImage: {
