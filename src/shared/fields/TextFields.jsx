@@ -1,7 +1,11 @@
-export const TextFieldSubTitle = ({ children, text_color = '' }) => {
+export const TextFieldSubTitle = ({
+  children,
+  text_color = '',
+  font_weight = '',
+}) => {
   return (
     <p
-      className={`${text_color} font-inter font-semibold text-base leading-125 tracking-[0.19em] uppercase`}
+      className={`${text_color} font-inter ${font_weight} text-base leading-125 tracking-[0.19em] uppercase`}
     >
       {children}
     </p>
