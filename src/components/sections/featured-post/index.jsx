@@ -9,7 +9,7 @@ import FeaturedIll from '~/assets/img/featured-ill.png'
 
 const FeaturedPost = () => {
   return (
-    <div className='bg-lavander p-20'>
+    <section className='bg-lavander p-20'>
       <Container>
         <div className='grid grid-cols-2 gap-36'>
           <div className=' flex flex-col max-w-[625px]'>
@@ -56,7 +56,7 @@ const FeaturedPost = () => {
           </div>
         </div>
       </Container>
-    </div>
+    </section>
   )
 }
 

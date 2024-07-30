@@ -6,7 +6,7 @@ import { Post } from './ui/Post'
 
 const AllPostList = () => {
   return (
-    <div className='my-8'>
+    <section className='my-8'>
       <Container>
         <div className=''>
           <TextFieldTitle
@@ -32,7 +32,7 @@ const AllPostList = () => {
           </button>
         </div>
       </Container>
-    </div>
+    </section>
   )
 }
 
