@@ -1,10 +1,14 @@
-import { Container } from '~/shared/shells'
+import OtherArticles from '~/components/sections/other-articles'
+import DescriptionBlog from '~/components/sections/description-blog'
+import JoinTeam from '~/components/sections/join-our-team'
 
 const BlogPage = () => {
   return (
-    <section className=''>
-      <Container>BlogPage</Container>
-    </section>
+    <>
+      <DescriptionBlog />
+      <OtherArticles />
+      <JoinTeam />
+    </>
   )
 }
 
